@@ -1,6 +1,8 @@
+import GameMap
+import GamePieces // need to import the functions in GampMap and GamePiece.
+
 public class Game {
-    import GameMap.map
-    import GamePieces.pieces // need to import the functions in GampMap and GamePiece.
+    
     
     private void move (int x1, int y1, int x2, int y2) {
         // Move a certain piece from coordinate (x1, y1) to coordinate (x2, y2)
