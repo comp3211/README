@@ -1,6 +1,7 @@
 public class GameMap{
     // A public class to include all the chess board functions in it.
-    public int chessBoard[][] map //To set a chess board like how big is the size of the chess board.
+    private int[][] map //To set a chess board like how big is the size of the chess board.
+    
     
     private boolean island () {
         //Check if the piece is on the land
